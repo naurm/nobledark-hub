@@ -1,6 +1,6 @@
 import Link from "next/link"
 import type { Metadata } from "next"
-import { SITE_NAME, SITE_TAGLINE, SITE_URL, GENRE_DEFINITION } from "@/lib/constants"
+import { SITE_NAME, SITE_TAGLINE, SITE_URL, CONTACT_EMAIL, GENRE_DEFINITION } from "@/lib/constants"
 
 export const metadata: Metadata = {
   title: "What Is Nobledark? — Nobledark Hub",
@@ -68,6 +68,14 @@ export default function AboutPage() {
           <p>
             Know a book that belongs here? This site is open source and community-driven.
             Suggestions are welcome.
+          </p>
+          <p>
+            Authors: if you&apos;d like your book added to the directory, use the{" "}
+            <Link href="/suggest" className="text-amber-600 hover:text-amber-500 underline underline-offset-2 transition-colors">suggestion form</Link>
+            {" "} or email{" "}
+            <a href={`mailto:${CONTACT_EMAIL}`} className="text-amber-600 hover:text-amber-500 underline underline-offset-2 transition-colors">
+              {CONTACT_EMAIL}
+            </a>.
           </p>
         </div>
       </section>

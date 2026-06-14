@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { SITE_NAME, SITE_TAGLINE, GENRE_DEFINITION } from "@/lib/constants"
+import { SITE_NAME, SITE_TAGLINE, CONTACT_EMAIL, GENRE_DEFINITION } from "@/lib/constants"
 import { getBooks, getAllTags } from "@/lib/books"
 import BookCard from "@/components/ui/BookCard"
 
@@ -119,7 +119,10 @@ export default async function HomePage() {
             <Link href="/suggest" className="text-amber-700 hover:text-amber-600 transition-colors">
               Suggest a book
             </Link>
-            {" · "}Read by fans of the genre
+            {" · "}
+            <a href={`mailto:${CONTACT_EMAIL}`} className="text-amber-700 hover:text-amber-600 transition-colors">
+              Contact
+            </a>
           </p>
         </div>
       </footer>

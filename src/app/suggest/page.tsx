@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { SITE_NAME } from "@/lib/constants"
+import { SITE_NAME, CONTACT_EMAIL } from "@/lib/constants"
 
 export default function SuggestPage() {
   const [form, setForm] = useState({
@@ -89,6 +89,12 @@ export default function SuggestPage() {
         <h1 className="font-serif text-3xl text-stone-100 mb-2">Suggest a Book</h1>
         <p className="text-stone-500 mb-10">
           Know a nobledark fantasy that belongs here? Drop it below. The community reviews every suggestion.
+        </p>
+        <p className="text-xs text-stone-600 mb-8">
+          For detailed recommendations, author submissions, or anything the form doesn&apos;t cover — email{" "}
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-amber-600 hover:text-amber-500 underline underline-offset-2 transition-colors">
+            {CONTACT_EMAIL}
+          </a>.
         </p>
 
         {error && (
