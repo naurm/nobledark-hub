@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-serif: "Georgia", "Times New Roman", serif;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-ember: #d97706;
+  --color-ember-dark: #92400e;
+  --color-shadow: #1c1917;
+  --color-shadow-light: #292524;
+  --color-parchment: #fafaf9;
+  --color-iron: #a8a29e;
+}
+
+body {
+  background: #0c0a09;
+  color: #fafaf9;
+}
+
+::selection {
+  background: #d97706;
+  color: #0c0a09;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1c1917;
+}
+::-webkit-scrollbar-thumb {
+  background: #44403c;
+  border-radius: 3px;
+}
+
+@keyframes ember-glow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+.animate-ember-glow {
+  animation: ember-glow 3s ease-in-out infinite;
+}

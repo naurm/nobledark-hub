@@ -1,0 +1,323 @@
+[
+  {
+    "slug": "the-fall-of-wolfsbane",
+    "title": "The Fall of Wolfsbane",
+    "author": "Jon Cronshaw",
+    "authorUrl": "https://joncronshaw.com",
+    "series": "Ravenglass Legends",
+    "seriesOrder": 1,
+    "coverPlaceholder": "The Fall of Wolfsbane",
+    "coverUrl": "https://i0.wp.com/joncronshaw.com/wp-content/uploads/2023/07/a-ravenglass-legends-book-1-3.jpg",
+    "whyNobledark": "A hostage raised among enemies must navigate empire politics without losing himself. Every step forward narrows the path back.",
+    "tags": [
+      "epic",
+      "political",
+      "series"
+    ],
+    "purchaseUrl": "https://geni.us/ravenglasslegends",
+    "year": 2024,
+    "indie": true
+  },
+  {
+    "slug": "the-ravenglass-throne",
+    "title": "The Ravenglass Throne",
+    "author": "Jon Cronshaw",
+    "authorUrl": "https://joncronshaw.com",
+    "series": "Ravenglass Legends",
+    "seriesOrder": 2,
+    "coverPlaceholder": "The Ravenglass Throne",
+    "coverUrl": "https://i0.wp.com/joncronshaw.com/wp-content/uploads/2025/07/A-Ravenglass-Throne-Book-1.jpg",
+    "whyNobledark": "Three sisters inherit a kingdom rotting from within. None can fix the corruption alone. None stop trying.",
+    "tags": [
+      "epic",
+      "political",
+      "series"
+    ],
+    "year": 2025,
+    "indie": true
+  },
+  {
+    "slug": "mistborn-the-final-empire",
+    "title": "Mistborn: The Final Empire",
+    "author": "Brandon Sanderson",
+    "series": "Mistborn",
+    "seriesOrder": 1,
+    "coverPlaceholder": "Mistborn",
+    "coverUrl": "https://covers.openlibrary.org/b/id/14658160-M.jpg",
+    "whyNobledark": "A dark lord won. The world is ash and oppression. But a crew of thieves plans a heist that could change everything — if hope doesn't get them killed first.",
+    "tags": [
+      "heist",
+      "magic-system",
+      "epic",
+      "series"
+    ],
+    "year": 2006,
+    "indie": false
+  },
+  {
+    "slug": "age-of-assassins",
+    "title": "Age of Assassins",
+    "author": "RJ Barker",
+    "authorUrl": "https://www.rjbarker.com",
+    "series": "The Wounded Kingdom",
+    "seriesOrder": 1,
+    "coverPlaceholder": "Age of Assassins",
+    "coverUrl": "https://covers.openlibrary.org/b/id/8504313-M.jpg",
+    "whyNobledark": "An apprentice assassin trained to end lives must protect a prince instead. Choosing mercy over murder costs more than a clean kill.",
+    "tags": [
+      "assassins",
+      "political",
+      "series",
+      "debut"
+    ],
+    "purchaseUrl": "https://geni.us/7k8fUAd",
+    "year": 2017,
+    "indie": false
+  },
+  {
+    "slug": "in-solitudes-shadow",
+    "title": "In Solitude's Shadow",
+    "author": "David Green",
+    "authorUrl": "https://www.davidgreenwriter.com",
+    "series": "Empire of Ruin",
+    "seriesOrder": 1,
+    "coverPlaceholder": "In Solitude's Shadow",
+    "coverUrl": "https://covers.openlibrary.org/b/id/13911454-M.jpg",
+    "whyNobledark": "Exiled mages guard an ancient threat while an empire wages genocidal war. Shattered loyalties, brutal choices, and a world on the brink.",
+    "tags": [
+      "epic",
+      "dark",
+      "magic",
+      "series"
+    ],
+    "purchaseUrl": "https://geni.us/wpT5W2y",
+    "year": 2023,
+    "indie": true
+  },
+  {
+    "slug": "torics-dagger",
+    "title": "Toric's Dagger",
+    "author": "Jamie Edmundson",
+    "authorUrl": "https://jamieedmundson.com",
+    "series": "The Weapon Takers Saga",
+    "seriesOrder": 1,
+    "coverPlaceholder": "Toric's Dagger",
+    "coverUrl": "https://covers.openlibrary.org/b/id/10632815-M.jpg",
+    "whyNobledark": "Twins on a desperate retrieval mission caught between mercenaries, fanatics, and sorcerers. The right path is rarely the easy one.",
+    "tags": [
+      "epic",
+      "quest",
+      "series"
+    ],
+    "purchaseUrl": "https://geni.us/1cLcL",
+    "year": 2016,
+    "indie": true
+  },
+  {
+    "slug": "a-breaking-of-realms",
+    "title": "A Breaking of Realms",
+    "author": "Jasmine Young",
+    "authorUrl": "https://www.jasmineyoungauthor.com",
+    "series": "Realm Breaker",
+    "seriesOrder": 1,
+    "coverPlaceholder": "A Breaking of Realms",
+    "whyNobledark": "A dragon rider defies her realm's sacred laws to protect a hatchling. Hope that gets people killed — but still burns anyway.",
+    "tags": [
+      "dragons",
+      "epic",
+      "rebellion",
+      "series"
+    ],
+    "purchaseUrl": "https://geni.us/lLsb",
+    "year": 2023,
+    "indie": true
+  },
+  {
+    "slug": "the-curse-of-chalion",
+    "title": "The Curse of Chalion",
+    "author": "Lois McMaster Bujold",
+    "coverPlaceholder": "The Curse of Chalion",
+    "coverUrl": "https://covers.openlibrary.org/b/id/238000-M.jpg",
+    "whyNobledark": "A broken man returns from war and slavery, seeking peace. Instead he finds divine conspiracies, court intrigue, and a chance at redemption — at a terrible price.",
+    "tags": [
+      "classic",
+      "political",
+      "standalone"
+    ],
+    "purchaseUrl": "https://geni.us/fniBuEr",
+    "year": 2001,
+    "indie": false
+  },
+  {
+    "slug": "kings-of-paradise",
+    "title": "Kings of Paradise",
+    "author": "Richard Nell",
+    "series": "Ash and Sand",
+    "seriesOrder": 1,
+    "coverPlaceholder": "Kings of Paradise",
+    "coverUrl": "https://covers.openlibrary.org/b/id/12554184-M.jpg",
+    "whyNobledark": "A deformed outcast and a privileged prince — two broken people fighting to reshape a brutal world. Gritty, empathetic, and morally complex.",
+    "tags": [
+      "epic",
+      "character-driven",
+      "series"
+    ],
+    "year": 2018,
+    "indie": true
+  },
+  {
+    "slug": "we-are-the-dead",
+    "title": "We Are the Dead",
+    "author": "Mike Shackle",
+    "series": "The Last War",
+    "seriesOrder": 1,
+    "coverPlaceholder": "We Are the Dead",
+    "coverUrl": "https://covers.openlibrary.org/b/id/10330707-M.jpg",
+    "whyNobledark": "A conquered nation, shattered resistance, and people who refuse to stay broken. Dark as grimdark but with characters fighting for something worth saving.",
+    "tags": [
+      "war",
+      "resistance",
+      "epic",
+      "series"
+    ],
+    "year": 2019,
+    "indie": false
+  },
+  {
+    "slug": "the-lord-of-the-rings",
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "coverPlaceholder": "The Lord of the Rings",
+    "coverUrl": "https://covers.openlibrary.org/b/id/14625765-M.jpg",
+    "whyNobledark": "The ur-text of nobledark. A world where evil could genuinely win, and small people carry the weight of its defeat through sacrifice and endurance.",
+    "tags": [
+      "classic",
+      "epic",
+      "foundational",
+      "series"
+    ],
+    "year": 1954,
+    "indie": false
+  },
+  {
+    "slug": "traitors-blade",
+    "title": "Traitor's Blade",
+    "author": "Sebastien de Castell",
+    "series": "The Greatcoats",
+    "seriesOrder": 1,
+    "coverPlaceholder": "Traitor's Blade",
+    "coverUrl": "https://covers.openlibrary.org/b/id/12139926-M.jpg",
+    "whyNobledark": "Disgraced magistrates cling to their oaths in a kingdom that's abandoned justice. Swashbuckling, brutal, and stubbornly honorable.",
+    "tags": [
+      "sword-fighting",
+      "political",
+      "series",
+      "classic"
+    ],
+    "purchaseUrl": "https://geni.us/traitorsblade",
+    "year": 2014,
+    "indie": false
+  },
+  {
+    "slug": "heroes-die",
+    "title": "Heroes Die",
+    "author": "Matthew Woodring Stover",
+    "series": "Acts of Caine",
+    "seriesOrder": 1,
+    "coverPlaceholder": "Heroes Die",
+    "coverUrl": "https://covers.openlibrary.org/b/id/209145-M.jpg",
+    "whyNobledark": "An assassin in a dystopian future is sent into a fantasy world where real death awaits. Violent, philosophical, and unflinching in its examination of what makes a hero.",
+    "tags": [
+      "sci-fi-fantasy",
+      "dark",
+      "philosophical",
+      "series"
+    ],
+    "year": 1998,
+    "indie": false
+  },
+  {
+    "slug": "the-vagrant",
+    "title": "The Vagrant",
+    "author": "Peter Newman",
+    "coverPlaceholder": "The Vagrant",
+    "coverUrl": "https://covers.openlibrary.org/b/id/10832812-M.jpg",
+    "whyNobledark": "A mute wanderer carries a holy sword through a demon-haunted wasteland. Bleak, strange, and unexpectedly tender.",
+    "tags": [
+      "unique",
+      "post-apocalyptic",
+      "standalone"
+    ],
+    "year": 2015,
+    "indie": false
+  },
+  {
+    "slug": "the-lions-of-alrassan",
+    "title": "The Lions of Al-Rassan",
+    "author": "Guy Gavriel Kay",
+    "coverPlaceholder": "The Lions of Al-Rassan",
+    "coverUrl": "https://covers.openlibrary.org/b/id/477414-M.jpg",
+    "whyNobledark": "In a world inspired by Reconquista Spain, three people from opposing sides form bonds that transcend politics. Beautiful, devastating, and morally luminous.",
+    "tags": [
+      "historical",
+      "literary",
+      "political",
+      "standalone",
+      "classic"
+    ],
+    "year": 1995,
+    "indie": false
+  },
+  {
+    "slug": "anakishas-story",
+    "title": "Anakisha's Story",
+    "author": "Eileen Mueller",
+    "series": "Dragon Riders of Naobia",
+    "seriesOrder": 1,
+    "coverPlaceholder": "Anakisha's Story",
+    "whyNobledark": "A girl seeking vengeance for her murdered brother finds a dragon instead. Grit and heart balanced against impossible odds.",
+    "tags": [
+      "dragons",
+      "coming-of-age",
+      "series"
+    ],
+    "purchaseUrl": "https://geni.us/cQ4cv",
+    "year": 2023,
+    "indie": true
+  },
+  {
+    "slug": "crownfall",
+    "title": "Crownfall",
+    "author": "Michael Vadney",
+    "coverPlaceholder": "Crownfall",
+    "coverUrl": "https://fanfiaddict.com/wp-content/uploads/2026/02/CROWNFALL-FRONT-662x1024.jpeg",
+    "whyNobledark": "A kingdom in collapse and the people who refuse to let it fall. Heavy moral weight, no easy answers.",
+    "tags": [
+      "political",
+      "dark",
+      "standalone"
+    ],
+    "year": 2023,
+    "indie": true
+  },
+  {
+    "slug": "Mistborn: The Well of Ascension",
+    "title": "Mistborn: The Well of Ascension",
+    "author": "Brandon Sanderson",
+    "coverPlaceholder": "Mistborn: The Well of Ascension",
+    "whyNobledark": "",
+    "tags": [],
+    "year": 2026,
+    "indie": true
+  },
+  {
+    "slug": "hunting-misfortune",
+    "title": "Hunting Misfortune",
+    "author": "J.L. Allred",
+    "coverPlaceholder": "Hunting Misfortune",
+    "whyNobledark": "COMING SOON",
+    "tags": [],
+    "year": 2026,
+    "indie": true
+  }
+]
