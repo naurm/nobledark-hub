@@ -25,9 +25,9 @@ export default async function BooksPage() {
           <Link href="/" className="font-serif text-lg text-stone-200 hover:text-amber-400 transition-colors">
             {SITE_NAME}
           </Link>
-          <div className="flex gap-6 text-sm text-stone-500">
-            <Link href="/books" className="text-amber-500 font-medium">Directory</Link>
-            <Link href="/about" className="hover:text-stone-300 transition-colors">About</Link>
+          <div className="flex gap-4 text-sm text-stone-500">
+            <Link href="/books" className="text-amber-500 font-medium py-2">Directory</Link>
+            <Link href="/about" className="hover:text-stone-300 transition-colors py-2">About</Link>
           </div>
         </div>
       </nav>

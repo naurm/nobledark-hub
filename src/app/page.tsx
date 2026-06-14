@@ -12,10 +12,18 @@ export default async function HomePage() {
       {/* Hero — banner background */}
       <section className="relative overflow-hidden min-h-[70vh] flex items-center">
         {/* Banner image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/images/hero-banner.png')" }}
-        />
+        <picture className="absolute inset-0">
+          <source
+            srcSet="/images/hero-banner-mobile.webp"
+            media="(max-width: 640px)"
+          />
+          <source srcSet="/images/hero-banner.webp" />
+          <img
+            src="/images/hero-banner.png"
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+        </picture>
         {/* Gradients for readability */}
         <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/80 to-stone-950/60" />
         <div className="absolute inset-0 bg-gradient-to-r from-stone-950/60 via-transparent to-stone-950/60" />
