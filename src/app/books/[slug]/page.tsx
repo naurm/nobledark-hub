@@ -1,7 +1,39 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
-import { SITE_NAME } from "@/lib/constants"
-import { getBookBySlug } from "@/lib/books"
+import type { Metadata } from "next"
+import { SITE_NAME, SITE_URL } from "@/lib/constants"
+import { getBookBySlug, getBooks } from "@/lib/books"
+
+export async function generateStaticParams() {
+  const books = await getBooks()
+  return books.map((book) => ({ slug: book.slug }))
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params
+  const book = await getBookBySlug(slug)
+  if (!book) return {}
+
+  const title = `${book.title} — ${SITE_NAME}`
+  const description = book.whyNobledark || `${book.title} by ${book.author} — a nobledark fantasy`
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `${SITE_URL}/books/${slug}`,
+      images: book.coverUrl ? [{ url: book.coverUrl, alt: book.title }] : [],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: book.coverUrl ? [book.coverUrl] : [],
+    },
+  }
+}
 
 export default async function BookDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
@@ -86,6 +118,24 @@ export default async function BookDetailPage({ params }: { params: Promise<{ slu
                 </Link>
               ))}
             </div>
+
+            {/* JSON-LD structured data */}
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "Book",
+                  name: book.title,
+                  author: { "@type": "Person", name: book.author },
+                  description: book.whyNobledark,
+                  ...(book.coverUrl && { image: book.coverUrl }),
+                  ...(book.series && { isPartOf: { "@type": "BookSeries", name: book.series } }),
+                  ...(book.purchaseUrl && { url: book.purchaseUrl }),
+                  genre: book.tags,
+                }),
+              }}
+            />
 
             {book.purchaseUrl && (
               <a

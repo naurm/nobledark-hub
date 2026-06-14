@@ -1,8 +1,20 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
-import { SITE_NAME } from "@/lib/constants"
+import type { Metadata } from "next"
+import { SITE_NAME, SITE_URL } from "@/lib/constants"
 import { getAllTags, getBooksByTag } from "@/lib/books"
 import BookCard from "@/components/ui/BookCard"
+
+export async function generateMetadata({ params }: { params: Promise<{ tag: string }> }): Promise<Metadata> {
+  const { tag } = await params
+  const title = `${tag.charAt(0).toUpperCase() + tag.slice(1)} Nobledark Books — ${SITE_NAME}`
+  const description = `Browse nobledark fantasy books tagged with "${tag}" — a curated directory.`
+  return {
+    title,
+    description,
+    openGraph: { title, description, url: `${SITE_URL}/tag/${tag}` },
+  }
+}
 
 export default async function TagPage({ params }: { params: Promise<{ tag: string }> }) {
   const { tag } = await params

@@ -1,7 +1,18 @@
 import Link from "next/link"
-import { SITE_NAME } from "@/lib/constants"
+import type { Metadata } from "next"
+import { SITE_NAME, SITE_URL } from "@/lib/constants"
 import { getBooks, getAllTags } from "@/lib/books"
 import BookCard from "@/components/ui/BookCard"
+
+export const metadata: Metadata = {
+  title: "Directory — Nobledark Hub",
+  description: "Browse the curated directory of nobledark fantasy books — epic, political, grim, hopeful, and everything in between.",
+  openGraph: {
+    title: "Directory — Nobledark Hub",
+    description: "Browse the curated directory of nobledark fantasy books.",
+    url: `${SITE_URL}/books`,
+  },
+}
 
 export default async function BooksPage() {
   const [books, tags] = await Promise.all([getBooks(), getAllTags()])

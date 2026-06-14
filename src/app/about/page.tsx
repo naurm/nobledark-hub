@@ -1,5 +1,16 @@
 import Link from "next/link"
-import { SITE_NAME, SITE_TAGLINE, GENRE_DEFINITION } from "@/lib/constants"
+import type { Metadata } from "next"
+import { SITE_NAME, SITE_TAGLINE, SITE_URL, GENRE_DEFINITION } from "@/lib/constants"
+
+export const metadata: Metadata = {
+  title: "What Is Nobledark? — Nobledark Hub",
+  description: "Nobledark fantasy explained: the space between grimdark and noblebright, where hope is scarce but earned.",
+  openGraph: {
+    title: "What Is Nobledark? — Nobledark Hub",
+    description: "Nobledark fantasy explained: the space between grimdark and noblebright.",
+    url: `${SITE_URL}/about`,
+  },
+}
 
 export default function AboutPage() {
   return (
