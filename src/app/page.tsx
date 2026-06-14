@@ -93,11 +93,34 @@ export default async function HomePage() {
         )}
       </section>
 
+      {/* Community callout */}
+      <section className="mx-auto max-w-4xl px-6 pb-16 text-center">
+        <div className="p-8 rounded-lg border border-stone-800 bg-stone-900/40">
+          <h2 className="font-serif text-xl text-stone-200 mb-3">Know a book that belongs here?</h2>
+          <p className="text-stone-500 text-sm mb-6 max-w-lg mx-auto">
+            This directory is community-built. If there&apos;s a nobledark fantasy we&apos;ve missed,
+            send it in. Every suggestion gets reviewed.
+          </p>
+          <Link
+            href="/suggest"
+            className="inline-block px-6 py-3 bg-amber-700 hover:bg-amber-600 text-stone-100 rounded-lg text-sm font-medium transition-colors"
+          >
+            Suggest a Book
+          </Link>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="border-t border-stone-800">
         <div className="mx-auto max-w-4xl px-6 py-8 text-center text-xs text-stone-600">
           <p>{SITE_NAME} — {SITE_TAGLINE}</p>
           <p className="mt-1">A curated directory. Not affiliated with any publisher or author.</p>
+          <p className="mt-2">
+            <Link href="/suggest" className="text-amber-700 hover:text-amber-600 transition-colors">
+              Suggest a book
+            </Link>
+            {" · "}Read by fans of the genre
+          </p>
         </div>
       </footer>
     </>
