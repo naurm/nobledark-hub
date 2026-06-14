@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { SITE_NAME, SITE_TAGLINE, CONTACT_EMAIL, GENRE_DEFINITION } from "@/lib/constants"
+import { SITE_NAME, SITE_TAGLINE, CONTACT_EMAIL, KO_FI_URL, GENRE_DEFINITION } from "@/lib/constants"
 import { getBooks, getAllTags } from "@/lib/books"
 import BookCard from "@/components/ui/BookCard"
 
@@ -122,6 +122,10 @@ export default async function HomePage() {
             {" · "}
             <a href={`mailto:${CONTACT_EMAIL}`} className="text-amber-700 hover:text-amber-600 transition-colors">
               Contact
+            </a>
+            {" · "}
+            <a href={KO_FI_URL} target="_blank" rel="noopener noreferrer" className="text-amber-700 hover:text-amber-600 transition-colors">
+              Support on Ko‑fi
             </a>
           </p>
         </div>

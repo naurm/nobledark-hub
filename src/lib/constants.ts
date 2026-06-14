@@ -5,5 +5,6 @@ export const SITE_DESCRIPTION =
 export const SITE_URL = "https://nobledarkhub.com"
 
 export const CONTACT_EMAIL = "help@nobledarkhub.com"
+export const KO_FI_URL = "https://ko-fi.com/jlallred"
 
 export const GENRE_DEFINITION = `Nobledark fantasy sits in the space between grimdark and noblebright. The world is harsh — cruel, unjust, often beautiful in its ruin. But the characters haven't given up. They carry moral weight. They make choices that cost them something real. Hope isn't guaranteed, but it's possible — and it's earned.`
