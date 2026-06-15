@@ -34,8 +34,7 @@ export default function AboutPage() {
           <p>{GENRE_DEFINITION}</p>
 
           <p>
-            If grimdark asks whether decency was ever real, nobledark asks whether decency can survive contact with power.
-            The world stays cruel. Systems stay broken. But the refusal to become worse still matters.
+            If grimdark asks whether decency was ever real, nobledark looks for where light still pushes back. The world may be cruel. Systems may be broken. But the heroes bravely resist the downward pull on their souls even if it costs them dearly.
           </p>
 
           <p>
@@ -51,7 +50,7 @@ export default function AboutPage() {
               <span className="text-amber-600 font-medium">Grimdark:</span> Morally exhausted worlds where kindness is punished and survival replaces ethics. Characters are often amoral. Hope is a lie.
             </div>
             <div>
-              <span className="text-amber-600 font-medium">Nobledark:</span> Harsh worlds where characters still carry moral weight. Hope is scarce but real — earned through sacrifice. No clean victories, but refusal to surrender still matters.
+              <span className="text-amber-600 font-medium">Nobledark:</span> Harsh worlds where characters still carry moral weight. Hope is scarce but real — earned through sacrifice. There are few clean victories, but it is the refusal to surrender that really matters.
             </div>
             <div>
               <span className="text-amber-600 font-medium">Noblebright:</span> Worlds where goodness is rewarded, institutions function, and evil is external. Sacrifice leads to renewal. Heroes win because they deserve to.
@@ -63,7 +62,7 @@ export default function AboutPage() {
           <h2 className="font-serif text-xl text-stone-100 pt-4">About This Site</h2>
           <p>
             {SITE_NAME} is a reader-built directory of nobledark fantasy books and series.
-            There&apos;s no algorithm, no paid placement — just a growing list of stories where the darkness is real but hope has weight.
+            There&apos;s no algorithm, no paid placement — just a growing list of stories where the darkness is real but hope still burns.
           </p>
           <p>
             Know a book that belongs here? This site is open source and community-driven.
