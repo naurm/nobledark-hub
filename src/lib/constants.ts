@@ -1,5 +1,5 @@
 export const SITE_NAME = "Nobledark Hub"
-export const SITE_TAGLINE = "Discover fantasy where hope has weight"
+export const SITE_TAGLINE = "Stories from the dark, for those struggling toward the dawn."
 export const SITE_DESCRIPTION =
   "A curated directory of nobledark fantasy — books, series, and authors where the world is harsh but heroes still matter."
 export const SITE_URL = "https://nobledarkhub.com"

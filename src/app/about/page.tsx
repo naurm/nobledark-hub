@@ -61,7 +61,7 @@ export default function AboutPage() {
         <div className="space-y-4 text-stone-300 leading-relaxed">
           <h2 className="font-serif text-xl text-stone-100 pt-4">About This Site</h2>
           <p>
-            {SITE_NAME} is a reader-built directory of nobledark fantasy books and series.
+            {SITE_NAME}{" "}is a reader-built directory of nobledark fantasy books and series.
             There&apos;s no algorithm, no paid placement — just a growing list of stories where the darkness is real but hope still burns.
           </p>
           <p>
