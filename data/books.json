@@ -14,7 +14,7 @@
       "political",
       "series"
     ],
-    "purchaseUrl": "https://geni.us/ravenglasslegends",
+    "purchaseUrl": "https://www.amazon.com/Fall-Wolfsbane-Coming-Age-Ravenglass-ebook/dp/B0CQMMQMVX",
     "year": 2024,
     "indie": true
   },
@@ -34,7 +34,8 @@
       "series"
     ],
     "year": 2025,
-    "indie": true
+    "indie": true,
+    "purchaseUrl": "https://www.amazon.com/Ravenglass-Throne-Nobledark-Political-Wyvern-Bond/dp/B0FLW8J4KF"
   },
   {
     "slug": "mistborn-the-final-empire",
@@ -44,7 +45,7 @@
     "seriesOrder": 1,
     "coverPlaceholder": "Mistborn",
     "coverUrl": "https://covers.openlibrary.org/b/id/14658160-M.jpg",
-    "whyNobledark": "A dark lord won. The world is ash and oppression. But a crew of thieves plans a heist that could change everything — if hope doesn't get them killed first.",
+    "whyNobledark": "A dark lord won. The world is ash and oppression. But a crew of thieves plans a heist that could change everything \u2014 if hope doesn't get them killed first.",
     "tags": [
       "heist",
       "magic-system",
@@ -52,7 +53,8 @@
       "series"
     ],
     "year": 2006,
-    "indie": false
+    "indie": false,
+    "purchaseUrl": "https://www.amazon.com/Mistborn-Final-Empire-Brandon-Sanderson/dp/076531178X"
   },
   {
     "slug": "age-of-assassins",
@@ -70,7 +72,7 @@
       "series",
       "debut"
     ],
-    "purchaseUrl": "https://geni.us/7k8fUAd",
+    "purchaseUrl": "https://www.amazon.com/Age-Assassins-Wounded-Kingdoms-Book-ebook/dp/B07B4R5G8D/",
     "year": 2017,
     "indie": false
   },
@@ -90,7 +92,7 @@
       "magic",
       "series"
     ],
-    "purchaseUrl": "https://geni.us/wpT5W2y",
+    "purchaseUrl": "https://www.amazon.com/Solitudes-Shadow-David-Green/dp/1990245226",
     "year": 2023,
     "indie": true
   },
@@ -109,7 +111,7 @@
       "quest",
       "series"
     ],
-    "purchaseUrl": "https://geni.us/1cLcL",
+    "purchaseUrl": "https://www.amazon.com/Torics-Dagger-Book-Weapon-Takers/dp/1912221004",
     "year": 2016,
     "indie": true
   },
@@ -121,14 +123,14 @@
     "series": "Realm Breaker",
     "seriesOrder": 1,
     "coverPlaceholder": "A Breaking of Realms",
-    "whyNobledark": "A dragon rider defies her realm's sacred laws to protect a hatchling. Hope that gets people killed — but still burns anyway.",
+    "whyNobledark": "A dragon rider defies her realm's sacred laws to protect a hatchling. Hope that gets people killed \u2014 but still burns anyway.",
     "tags": [
       "dragons",
       "epic",
       "rebellion",
       "series"
     ],
-    "purchaseUrl": "https://geni.us/lLsb",
+    "purchaseUrl": "https://www.amazon.com/Breaking-Realms-Heirs-Destiny-Book-ebook/dp/B0BQ7J3H3M/",
     "year": 2023,
     "indie": true
   },
@@ -138,13 +140,13 @@
     "author": "Lois McMaster Bujold",
     "coverPlaceholder": "The Curse of Chalion",
     "coverUrl": "https://covers.openlibrary.org/b/id/238000-M.jpg",
-    "whyNobledark": "A broken man returns from war and slavery, seeking peace. Instead he finds divine conspiracies, court intrigue, and a chance at redemption — at a terrible price.",
+    "whyNobledark": "A broken man returns from war and slavery, seeking peace. Instead he finds divine conspiracies, court intrigue, and a chance at redemption \u2014 at a terrible price.",
     "tags": [
       "classic",
       "political",
       "standalone"
     ],
-    "purchaseUrl": "https://geni.us/fniBuEr",
+    "purchaseUrl": "https://www.amazon.com/Curse-Chalion-Lois-McMaster-Bujold/dp/0061134244",
     "year": 2001,
     "indie": false
   },
@@ -156,14 +158,15 @@
     "seriesOrder": 1,
     "coverPlaceholder": "Kings of Paradise",
     "coverUrl": "https://covers.openlibrary.org/b/id/12554184-M.jpg",
-    "whyNobledark": "A deformed outcast and a privileged prince — two broken people fighting to reshape a brutal world. Gritty, empathetic, and morally complex.",
+    "whyNobledark": "A deformed outcast and a privileged prince \u2014 two broken people fighting to reshape a brutal world. Gritty, empathetic, and morally complex.",
     "tags": [
       "epic",
       "character-driven",
       "series"
     ],
     "year": 2018,
-    "indie": true
+    "indie": true,
+    "purchaseUrl": "https://www.amazon.com/Kings-Paradise-Ash-Sand-Book-ebook/dp/B074PD12C3"
   },
   {
     "slug": "we-are-the-dead",
@@ -181,7 +184,8 @@
       "series"
     ],
     "year": 2019,
-    "indie": false
+    "indie": false,
+    "purchaseUrl": "https://www.amazon.com/We-Are-Dead-Last-War-ebook/dp/B07KZRLWHC/"
   },
   {
     "slug": "the-lord-of-the-rings",
@@ -197,7 +201,8 @@
       "series"
     ],
     "year": 1954,
-    "indie": false
+    "indie": false,
+    "purchaseUrl": "https://www.amazon.com/Lord-Rings-J-R-R-Tolkien/dp/0544003411"
   },
   {
     "slug": "traitors-blade",
@@ -214,7 +219,7 @@
       "series",
       "classic"
     ],
-    "purchaseUrl": "https://geni.us/traitorsblade",
+    "purchaseUrl": "https://www.amazon.com/Traitors-Blade-Greatcoats-Sebastien-Castell/dp/1623658098",
     "year": 2014,
     "indie": false
   },
@@ -234,7 +239,8 @@
       "series"
     ],
     "year": 1998,
-    "indie": false
+    "indie": false,
+    "purchaseUrl": "https://www.amazon.com/Heroes-Die-Matthew-Woodring-Stover-ebook/dp/B000FC1KBM/"
   },
   {
     "slug": "the-vagrant",
@@ -249,7 +255,8 @@
       "standalone"
     ],
     "year": 2015,
-    "indie": false
+    "indie": false,
+    "purchaseUrl": "https://www.amazon.com/Vagrant-Trilogy-Peter-Newman/dp/0007593074"
   },
   {
     "slug": "the-lions-of-alrassan",
@@ -266,7 +273,8 @@
       "classic"
     ],
     "year": 1995,
-    "indie": false
+    "indie": false,
+    "purchaseUrl": "https://www.amazon.com/Lions-Al-Rassan-Guy-Gavriel-Kay-ebook/dp/B00851M70C"
   },
   {
     "slug": "anakishas-story",
@@ -281,7 +289,7 @@
       "coming-of-age",
       "series"
     ],
-    "purchaseUrl": "https://geni.us/cQ4cv",
+    "purchaseUrl": "https://www.amazon.com/Anakishas-Dragon-Masters-Dragons-adventure/dp/0995137404",
     "year": 2023,
     "indie": true
   },
@@ -298,17 +306,22 @@
       "standalone"
     ],
     "year": 2023,
-    "indie": true
+    "indie": true,
+    "purchaseUrl": "https://www.amazon.com/Crownfall-Novel-Ten-Ordained-Book-ebook/dp/B0DWP84861/"
   },
   {
-    "slug": "Mistborn: The Well of Ascension",
+    "slug": "mistborn-the-well-of-ascension",
     "title": "Mistborn: The Well of Ascension",
     "author": "Brandon Sanderson",
+    "series": "Mistborn",
+    "seriesOrder": 2,
     "coverPlaceholder": "Mistborn: The Well of Ascension",
-    "whyNobledark": "",
-    "tags": [],
-    "year": 2026,
-    "indie": true
+    "coverUrl": "https://covers.openlibrary.org/b/id/718405-M.jpg",
+    "whyNobledark": "The Lord Ruler is dead, but the world is not saved. Now Vin and Elend must navigate politics, prophecy, and a deeper threat brewing in the shadows, learning that overthrowing evil is only the first battle.",
+    "tags": ["epic", "magic-system", "political", "series"],
+    "year": 2007,
+    "indie": false,
+    "purchaseUrl": "https://www.amazon.com/Mistborn-Well-Ascension-Brandon-Sanderson/dp/0765316889"
   },
   {
     "slug": "hunting-misfortune",
@@ -318,6 +331,7 @@
     "whyNobledark": "COMING SOON",
     "tags": [],
     "year": 2026,
-    "indie": true
+    "indie": true,
+    "purchaseUrl": "https://www.amazon.com/Hunting-Misfortune-Darkland-Saga-Book-ebook/dp/B0DWTR7L29/"
   }
 ]
